@@ -1,0 +1,22 @@
+.interface {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    padding: 10px;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
