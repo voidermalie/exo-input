@@ -4,7 +4,7 @@ const Result = ({result}) => {
 
     return (
         <div className='result'>
-            {result}0
+            {result}
         </div>
     )
 }
