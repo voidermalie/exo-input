@@ -13,7 +13,7 @@ const ListItem = ({ item, dispatch }) => {
     <>
     <li>
         {item.text}
-    <Button name="Supprimer" onClick={handleRemove} />
+    <Button name="X" onClick={handleRemove} type='delete' />
     </li>
     </>
   );

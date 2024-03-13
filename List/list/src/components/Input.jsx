@@ -6,8 +6,10 @@ const Input = ({ dispatch }) => {
   const [text, setText] = useState('');
 
   const handleSubmit = () => {
+    if (text.trim() !== '') {
       dispatch({ type: ACTIONS.ADD_ITEM, payload: text });
       setText('');
+    }
   };
 
   return (
