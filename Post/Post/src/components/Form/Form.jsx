@@ -23,7 +23,7 @@ const Form = () => {
       {error !== '' && <span style={{ color: 'red' }}>{error}</span>}
       <Input placeholder={'title'} type={'title'} />
       <Input placeholder={'write your content here...'} type={'content'} />
-      <Button name={'Partager'} type={'partager'} onClick={handleSubmit} />
+      <Button name={'Partager'} type={'share'} onClick={handleSubmit} />
     </div>
   );
 };
