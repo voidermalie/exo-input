@@ -24,7 +24,7 @@ const Input = ({ onSubmit }) => {
           onChange={handleChange}
           value={city}
           placeholder="Enter city name"
-          type={'text'}
+          type={'search'}
           onSubmit={onSubmit}
         />
       </form>
